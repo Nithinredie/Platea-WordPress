@@ -13,6 +13,7 @@ export default function FoodCard({ img, rating, tag, title, time, countryImg, co
     <div className="flex flex-wrap justify-center">
       <div className="bg-white m-6  rounded-xl shadow-md overflow-hidden max-w-xs ">
         <div className="relative w-full h-100">
+          <div className="relative inset-0">
             <Image
               src={img}
               alt="img"
@@ -20,6 +21,11 @@ export default function FoodCard({ img, rating, tag, title, time, countryImg, co
               height={700}
               className=" rounded-xl w-full "
             />
+            <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2  bg-white/30 backdrop-blur size-20 flex items-center justify-center rounded-full hover:size-30  ">
+            <FaPlay className="text-white text-4xl "/>
+            </div>
+          </div>
+
           <div className="absolute top-2 left-2 bg-white rounded-full px-2 py-1 flex items-center gap-1 shadow">
             <FaStar className="text-yellow-400" />
             <span className="text-sm font-semibold text-gray-800">{rating}</span>

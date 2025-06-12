@@ -12,12 +12,12 @@ export default function HeroBanner() {
         src="/images/hero.jpg"
         alt="Delicious food banner"
         fill
-        className="absolute inset-0 w-full h-full object-cover z-0 rounded-4xl"
+        className="absolute inset-0 w-full h-full object-cover z-0 rounded-2xl"
         priority
       />
       <div className="absolute inset-0 sm:bg-white/50 md:bg-white/10 z-10"></div>
-      <div className="relative z-10 w-full max-w-7xl">
-        <div className="max-w-4xl space-y-6">
+      <div className="relative z-10 w-full max-w-7xl   ">
+        <div className="max-w-4xl space-y-6 px-4 sm:px-10 py-8 md:px-20 ">
           <h1 className="text-2xl sm:text-4xl md:text-6xl font-bold text-gray-900">
             You don't know how to make the dish you have in mind?
           </h1>
@@ -34,7 +34,7 @@ export default function HeroBanner() {
                 placeholder="Find what you want to cook today"
                 className="flex-grow bg-transparent outline-none text-gray-800 text-sm sm:text-base placeholder-gray-500"
               />
-              <button className="bg-red-600 hover:bg-red-700 text-white p-6 rounded-xl transition-colors duration-200">
+              <button className="bg-red-600 hover:bg-red-700 text-white p-2 sm:p-3 md:p-6  rounded-xl transition-colors duration-200">
                 <FaSearch />
               </button>
             </div>

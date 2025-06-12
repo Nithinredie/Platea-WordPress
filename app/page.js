@@ -9,9 +9,9 @@ import Heading2 from '@/components/Heading2';
 import Headings3 from '@/components/Headings3';
 import AllRecipe from '@/components/AllRecipe';
 import Heading5 from '@/components/Heading5';
+import AllRecipeV from '@/components/AllRecipeV';
 import DisplayCard from '@/components/DisplayCard';
 import Journal from '@/components/Journal';
-import BannerComp from '@/components/BannerComp';
 import BannerComponent from '@/components/BannerComponent';
 
 function MyApp({ Component, pageProps }) {
@@ -28,7 +28,7 @@ return (
 <AllRecipe/>
 <Heading5/>
 <Heading2 tag="Video Recipes" content="Watch our latest recipe videos and learn step-by-step cooking tips and techniques!"/>
-<AllRecipe/>
+<AllRecipeV/>
 <DisplayCard/>
 <Heading2 tag="Our Journal" content="Discover stories, tips, and trends to inspire your culinary journey and creativity!"/>
 <BannerComponent/>

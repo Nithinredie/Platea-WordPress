@@ -1,0 +1,86 @@
+{
+    "carddata": 
+    [
+        {
+            "img": "/images/pasta.jpg",
+            "rating": "4.8",
+            "tag": "pasta",
+            "title": "Creamy Garlic Mushroom Penne Pasta",
+            "time": "5 min",
+            "countryImg": "/images/lebanon.jpg",
+            "country": "Lebanese",
+            "pro": "Beginner"
+        },
+        {
+            "img": "/images/salad.jpg",
+            "rating": "4.5",
+            "tag": "salad",
+            "title": "Zesty Lemon Quinoa with Fresh Herbs",
+            "time": "60 min",
+            "countryImg": "/images/morocco.jpg",
+            "country": "Moroccan",
+            "pro": "Beginner"
+        },
+        {
+            "img": "/images/meat.jpg",
+            "rating": "4.8",
+            "tag": "meat",
+            "title": "Smoky Barbeque Pulled Beef Sandwich",
+            "time": "15 min",
+            "countryImg": "/images/france.jpg",
+            "country": "French",
+            "pro": "Easy"
+        },
+        {
+            "img": "/images/breakfast.jpg",
+            "rating": "4.8",
+            "tag": "Breakfasts",
+            "title": "Fluffy Banana Pancakes with Maple Syrup",
+            "time": "60 min",
+            "countryImg": "/images/thai.jpg",
+            "country": "Thailand",
+            "pro": "Advanced"
+        },
+        {
+            "img": "/images/dessert.jpg",
+            "rating": "4.9",
+            "tag": "Desserts",
+            "title": "Molten chocolate Lava Cake Dessert",
+            "time": "20 min",
+            "countryImg": "/images/ethiopian.jpg",
+            "country": "Ethiopian",
+            "pro": "Advanced"
+        },
+        {
+            "img": "/images/sidedishes.jpg",
+            "rating": "4.4",
+            "tag": "SideDishes",
+            "title": "Crispy Garlic Zucchini Sticks",
+            "time": "100 min",
+            "countryImg": "/images/korea.jpg",
+            "country": "Korean",
+            "pro": "Beginner"
+        },
+        {
+            "img": "/images/drinks.jpg",
+            "rating": "4.9",
+            "tag": "Drinks",
+            "title": "Mango Pineapple Smoothie with Coconut",
+            "time": "15 min",
+            "countryImg": "/images/thai.jpg",
+            "country": "Thailand",
+            "pro": "Easy"
+        },
+        {
+            "img": "/images/glutenfree.jpg",
+            "rating": "4.8",
+            "tag": "Gluten-Free",
+            "title": "GLuten-Free Almond Waffles with Berries",
+            "time": "30 min",
+            "countryImg": "/images/lebanon.jpg",
+            "country": "Lebanese",
+            "pro": "Advanced"
+        }
+        
+    ]
+}

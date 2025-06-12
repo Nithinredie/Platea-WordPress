@@ -5,7 +5,6 @@ import {
   FaBookmark,
   FaClock,
   FaUser,
-  FaPlay 
 } from "react-icons/fa";
 
 export default function FoodCard({ img, rating, tag, title, time, countryImg, country, pro }) {
@@ -62,7 +61,6 @@ export default function FoodCard({ img, rating, tag, title, time, countryImg, co
           </div>
         </div>
       </div>
-
 
     </div>
   );

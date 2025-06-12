@@ -21,7 +21,6 @@ export default function AllRecipe() {
     fetchData();
   }, []);
 
-
   console.log("INFO:", info);
   return (
     <div className=" relative w-10/12  mx-auto flex flex-wrap md:mt-6  items-center justify-center   ">

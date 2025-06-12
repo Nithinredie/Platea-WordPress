@@ -20,8 +20,6 @@ export default function AllRecipeV() {
 
     fetchData();
   }, []);
-
-
   console.log("INFO:", info);
   return (
     <div className=" relative w-10/12  mx-auto flex flex-wrap md:mt-6  items-center justify-center   ">
@@ -36,10 +34,8 @@ export default function AllRecipeV() {
           countryImg={item.countryImg}
           country={item.country}
           pro={item.pro}
-
         />
       ))}
     </div>
   )
 }
-

@@ -29,8 +29,7 @@ import {
   FaPinterest,
 } from 'react-icons/fa';
 export default function navbar2() {
-      const [mobileMenu, setMobileMenu] = useState(false);
-
+    const [mobileMenu, setMobileMenu] = useState(false);
     return (
         <header className="sticky top-0 z-30 text-lg" style={{ fontFamily: '"Fira Sans", ui-sans-serif, system-ui' }}>
             <div className="flex  py-8 bg-white text-2xl shadow">
